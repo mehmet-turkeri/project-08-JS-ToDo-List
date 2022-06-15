@@ -39,6 +39,7 @@ const göster = () => {
     }  
     
   } 
+  gir.focus();
 
 
   let done = document.querySelectorAll(".fa-check");  
@@ -64,6 +65,11 @@ gir.onkeydown = (enter) => {
     ekle.click();
   }
 }
+
+// Tamamlanmiş(done) bir todo yu silerseniz bunun done sayacından silinmedigini görürsünüz. Bunu özellikle böyle yaptım.
+//Tamamlanmış görevlerin sayısını görmek motivasyonu artıran bir durum.
+
+
 
 
 
