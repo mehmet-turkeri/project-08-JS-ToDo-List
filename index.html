@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Todo List</title>
-    <link rel="shortcut icon" type="image/ico" href="./img/todo.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="img/clarusway.ico">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -19,18 +19,18 @@
     <main class="container">
       <header>Clarus Todos</header>
       <section class="todo-add">
-        <input type="text" id="todo-input" placeholder="Add New Todo..." autofocus/>
+        <input type="text" id="todo-input" placeholder="Add New Todo..."/>
         <button type="submit" id="todo-button">Add</button>
       </section>
 
       <section class="todos">
-        <ul style="background-color: red;"id="todo-ul"></ul>
+        <ul style="background-color: rgb(210, 145, 242);"id="todo-ul"></ul>
       </section>
 
       <section class="mytodos" style="background-color: rgb(207, 149, 234); display: flex;
       justify-content:space-evenly;">
-        <div>My Todos : <span class="tds">0</span> </div>
-        <div>Done : <span class="dn">0</span></div>
+        <div>My Todos : <span id="td"></span> </div>
+        <div>Done : <span id="dn">0</span></div>        
 
       </section>
     </main>
